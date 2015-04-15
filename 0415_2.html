@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> JOIN US! </title>
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" type="text/css" href="0324_2.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+</head>
+
+<body>
+	<div class="container">
+	<form>
+		<div id=title>
+		<h1>！一起加入我們！</h1>
+		</div>
+  <div id=content>
+	<p>
+		<lable for="name">1. 姓名</lable>
+		<input type="text" id="name" autofocus required> 
+	</p>
+
+	<p>2. 性別
+	</p>
+	<ul>
+		<li>
+			<input type="radio" name="gender" required id="girl" value="女">
+			<lable for="girl">女生</lable>
+		</li>
+		<li>
+			<input type="radio" name="gender" required id="boy" value="男">
+			<lable for="boy">男生</lable>
+		</li>
+	</ul>
+
+	<p>
+		<lable for="birth">3. 生日</lable>
+		<input type="date" required id="birth" autofocus> 
+	</p>
+
+	<p>4. 平常用什麼交通工具哩</p>
+	<ul>
+		<li>
+			<input type="checkbox" name="trans" required id="walk" value="走">
+			<lable for="walk">11路公車也就是走路</lable>
+		</li>
+		<li>
+			<input type="checkbox" name="trans" required id="bike" value="踏">
+			<lable for="boy">咖打掐騎個腳踏車</lable>
+		</li>
+		<li>
+			<input type="checkbox" name="trans" required id="motor" value="機">
+			<lable for="motor">肉包鐵我騎機車</lable>
+		</li>
+		<li>
+			<input type="checkbox" name="trans" required id="car" value="汽">
+			<lable for="car">鐵包肉安全的開車</lable>
+		</li>
+		<li>
+			<input type="checkbox" name="trans" required id="bus" value="公">
+			<lable for="bus">節能減碳坐公車</lable>
+		</li>
+		<li>
+			<input type="checkbox" name="trans" required id="metro" value="捷">
+			<lable for="metro">搭捷運好快喔</lable>
+		</li>
+		<li>
+			<input type="checkbox" name="trans" required id="train" value="火">
+			<lable for="train">火車阿罵依都丟</lable>
+		</li>
+		<li>
+			<input type="checkbox" name="trans" required id="plane" value="飛">
+			<lable for="plane">飛機快飛飛機快飛</lable>
+		</li>
+	</ul>
+
+	<lable for="education">5. 最高學歷在哪裡</lable>
+	<select name="education">
+ 	<option value="under">高中以下小朋友</option>
+ 	<option value="highschool">青春年華高中生</option>
+ 	<option value="university">夜衝夜唱大學森ING</option>
+ 	<option value="bachelor">大學畢業哩社會人士</option>
+ 	<option value="master">不小心讀了碩士</option>
+ 	<option value="doctor">又不小心讀了博士</option>
+ 	<option value="noanswer">我不想要告訴你</option>
+	</select>
+	<input type="text" name="education" id="education" value="其他">
+
+	
+
+	<p>
+		<lable for="industry">6. 身處什麼領域呢</lable>
+		<input type="text" required id="industry"> 
+	</p>
+
+	<p>
+		<lable for="phone">7. 拜託給我你的電話</lable>
+		<input type="tel" required id="phone"> 
+	</p>
+
+	<p>
+		<lable for="email">8. 順便告訴我你的email吧</lable>
+		<input type="email" required id="email"> 
+	</p>
+
+	<p>
+		<lable for="web">9. 如果有網站也請偷偷告訴我</lable>
+		<input type="url" id="web"> 
+	</p>	
+
+
+
+<input type="submit" value="送出" id=send>	
+
+</div>
+</form>	
+</div>	
+</body>
