@@ -1,5 +1,5 @@
 body{
-	background-color: rgb(130,102,58);
+	background-color: rgb(210, 233, 233);
 	max-width: 1200px;
 }
 
@@ -7,7 +7,7 @@ div#title{
 	display: inline-block;
 	vertical-align: top;
 	width: 100%;
-	margin-left: 70px;
+	/*margin-left: 70px;*/
 	font-size: 2em;
 	color: rgb(218,201,166);
 	font-family: "malgun gothic", simhei;
@@ -16,7 +16,7 @@ div#title{
 	background: url(https://unsplash.imgix.net/photo-1418479631014-8cbf89db3431?q=75&fm=jpg&s=478a9a2196033db7c0bf3c8ba3707f4d);
 }
 
-div#content{
+/*div#content{
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 1.5em;
@@ -27,6 +27,16 @@ div#content{
 	font-family: Meiryo, "微軟正黑體", "Microsoft JhengHei";
 	background-color: rgba(181,202,160,0.5);
 }
+*/
+
+div#content{
+	padding:2em;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: Meiryo, "微軟正黑體", "Microsoft JhengHei";
+	background-color: rgba(181,202,160,0.5);
+}
+
 #send{
 	background-color: rgb(235,122,119);
     color: #fff;
